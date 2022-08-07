@@ -1,7 +1,32 @@
 {
-  "name": "employee-hr-records-app-modal-plugin",
+  "name": "employee-hr-records-application-modal-plugin",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
+  "main": "dist/ModalPlugin.js",
+  "module": "dist/ModalPlugin.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dimterion/Employee-hr-records-app-modal-plugin.git"
+  },
+  "keywords": [
+    "react",
+    "modal"
+  ],
+  "author": "Dimterion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dimterion/Employee-hr-records-app-modal-plugin"
+  },
+  "homepage": "https://github.com/Dimterion/Employee-hr-records-app-modal-plugin#readme",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -15,7 +40,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "publish:npm": "(if exist dist rmdir /s /q dist) && mkdir dist && babel ./src/components -d dist --copy-files"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +60,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/preset-react": "^7.18.6"
   }
 }

@@ -1,3 +1,4 @@
+import React from 'react';
 import "./modalPlugin.css";
 
 function ModalPlugin({ showModal, modalText }) {
