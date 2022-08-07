@@ -1,6 +1,6 @@
 {
   "name": "employee-hr-records-application-modal-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "babel": {
     "presets": [
