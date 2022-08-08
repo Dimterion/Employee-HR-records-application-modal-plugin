@@ -14,6 +14,16 @@ React, CSS, JavaScript.
 
 ## How to use the plugin
 
-1. In the main project directory run the following command: npm i react-data-table-component
-2. In the component where plugin will be used import it as: import ModalPlugin from "employee-hr-records-application-modal-plugin"
-3. Use it as a standard component <ModalPlugin /> and pass the following props: showModal={setOpenModal} (setOpenModal must be defined using useState to add the functionality to open/close the modal); modalText="Text of the modal is here."
+1. In the main project directory run the following command:
+
+npm i react-data-table-component
+
+2. In the component where plugin will be used import it as:
+
+import ModalPlugin from "employee-hr-records-application-modal-plugin"
+
+3. Use it as a standard component <ModalPlugin /> and pass the following props (setOpenModal must be defined using useState to add the functionality to open/close the modal):
+
+showModal={setOpenModal}
+
+modalText="Text of the modal is here"
