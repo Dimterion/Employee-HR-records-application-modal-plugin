@@ -1,6 +1,7 @@
 import React from "react";
 import "./modalPlugin.css";
 
+// Rendering a component with a modal window mechanic
 function ModalPlugin({ showModal, modalText }) {
   return (
     <div className="modal-container" onClick={() => showModal(false)}>
