@@ -24,7 +24,7 @@ function ModalPlugin({
 
 // Setting propTypes and defaultProps
 ModalPlugin.propTypes = {
-  showModal: PropTypes.bool.isRequired,
+  showModal: PropTypes.func.isRequired,
   modalText: PropTypes.string.isRequired,
   modalContainerStyle: PropTypes.object,
   modalWindowStyle: PropTypes.object,
