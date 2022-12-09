@@ -92,7 +92,7 @@ fontWeight: "bold",
 
 },
 
-};
+}
 ```
 
 5. To change the style of any of the modal elements, use the appropriate prop (see above). Make sure to add all of the properties from the default values, then add/change those that need to be changed.
