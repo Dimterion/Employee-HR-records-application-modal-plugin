@@ -16,20 +16,29 @@ React, CSS, JavaScript.
 
 1. In the main project directory run the following command:
 
+```bash
 npm i react-data-table-component
+```
 
 2. In the component where plugin will be used import it as:
 
+```bash
 import ModalPlugin from "employee-hr-records-application-modal-plugin"
+```
 
 3. Use it as a standard component <ModalPlugin /> and pass the following props (setOpenModal must be defined using useState to add the functionality to open/close the modal):
 
+```bash
 showModal={setOpenModal}
+```
 
+```bash
 modalText="Text of the modal is here"
+```
 
 4. By default the following styling is applied (name of each object is the name of the appropriate prop):
 
+```bash
 ModalPlugin.defaultProps = {
 
 modalContainerStyle: {
@@ -84,5 +93,6 @@ fontWeight: "bold",
 },
 
 };
+```
 
 5. To change the style of any of the modal elements, use the appropriate prop (see above). Make sure to add all of the properties from the default values, then add/change those that need to be changed.
